@@ -1,5 +1,4 @@
 '''
-
 # O QUE SÃO VARIÁVEIS
 
 Variáveis são espaços reservados na memória para armazenar dados temporários necessários para a execução de um código.
@@ -39,7 +38,6 @@ print(type(alturaDoCliente)) # Mostra na tela o tipo da variável alturaDoClient
 print(type(nomeDoCliente)) # Mostra na tela o tipo da variável nomeDoCliente
 
 '''
-
 # ENTENDENDO O QUE ACONTECEU NAS LINHAS 14, 15 e 16
 
 [1] O comando print() mostra na tela tudo aquilo que for indicando para ele.
@@ -62,12 +60,11 @@ Então vamos pensar:
     [2] Eu também quero que seja mostrado na minha tela o tipo da variável pesoDoCliente, como posso fazer isso:
             Resposta: usando o comando print, ele pode me mostrar o que o type verificou. Desta forma: 
             print(type(pesoDoCliente))
-
 '''
+
 pesoDoCliente = str(pesoDoCliente) # Muda o tipo da variável pesoDoCliente para o tipo string
 
 '''
-
 # ENTENDENDO O QUE ACONTECEU NA LINHA 44
 
 [1] O comando str(), int() e float() convertem, respectivimante, qualquer valor que for indicado para eles em valores do tipo string, inteiro e float.
@@ -84,7 +81,6 @@ pesoDoCliente = str(pesoDoCliente) # Muda o tipo da variável pesoDoCliente para
 
 Se eu quisesse mudar o nome desta variável convertida era só dar um nome diferente:
     pesoDoClienteConvertido = str(pesoDoCliente)
-
 '''
 
 print(type(pesoDoCliente)) # Mostra na tela o tipo da variável pesoDoCliente
