@@ -18,7 +18,7 @@ Exemplos de dados que podemos precisar em um código: quando criamos um código 
 
 # CRIANDO UMA VARIÁVEL
 
-[1] Dé um nome à variável e iguale ela ao seu valor:
+[1] Dê um nome à variável e iguale ela ao seu valor:
     nome = valor
 
 [2] Quando damos nomes à uma variável temos que seguir regras:
@@ -48,7 +48,7 @@ print(type(nomeDoCliente)) # Mostra na tela o tipo da variável nomeDoCliente
 [2] O comando type() retornar a informação sobre o tipo do dado que foi indicado para ele.
     Quando eu faço:
         type("Batata")
-    Eu estou indicando ao comando print a sting Batata, com isso será verificado o tipo deste dado (string, inteiro ou float).
+    Eu estou indicando ao comando type a sting Batata, com isso será verificado o tipo deste dado (string, inteiro ou float).
 
 Mas somente o comando print() é capaz de mostrar algo na tela, o comando type consegue verificar o tipo de qualquer dado, porém é incapaz de mostrar isso na tela. Para resolver esse problema eu posso unir o comando type com o comando print.
 
